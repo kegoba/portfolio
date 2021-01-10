@@ -1,9 +1,8 @@
 import React, {Component} from "react"
 import { Route, Link, Switch, BrowserRouter as Router } from 'react-router-dom'
 //import './App.css';
-
 import Home from "../pages/home"
-import Sidebar from "../pages/sidebar"
+//import Sidebar from "../pages/sidebar"
 import Contact from "../pages/Contact";
 import Project from "../pages/project";
 
@@ -67,6 +66,7 @@ class Menu extends Component{
                
                             <Switch>
                                 <Route exact path="/" component={Home} />
+                                <Route exact path="/portfolio" component={Home} />
                                 <Route exact path="/contact" component={Contact} />
                                 <Route exact path="/project" component={Project} />
                                    

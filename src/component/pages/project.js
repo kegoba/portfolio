@@ -1,5 +1,5 @@
 import React from "react"
-import {Link} from "react-router-dom"
+//import {Link} from "react-router-dom"
 import vtu from "../assets/images/vtu.PNG"
 import men from "../assets/images/men.PNG"
 import bsc from "../assets/images/bsc.PNG"
@@ -12,34 +12,32 @@ const Project = ()=>{
             <div className="container card project"  >
                    <h4> </h4> 
                        <p> projects
-                        </p>
-                        
-                
+                        </p>     
         </div>
             <div className="container product">
                 <div className="flex-container">
                     <div className="flex-col card-light">
-                        <img className="image" src={vtu} /> 
-                        <p className="products">VTU App <a href={"http://vituapps.herokuapp.com"} target="_blank"> View</a> </p> 
+                        <img className="image" src={vtu}  alt={vtu}/> 
+                        <p className="products">VTU App <a href={"http://vituapps.herokuapp.com"} target="_blank" rel=""> View</a>  </p> 
                         
                         
                 </div>
                     <div className="flex-col card-light">
-                        <img className="image" src={men} />
-                        <p className="products"> E-commence App <a href="http://kenstore.herokuapp.com/" target=" _blank"> View</a>  </p> 
+                        <img className="image" src={men} alt={men} />
+                        <p className="products"> E-commence App <a href="http://kenstore.herokuapp.com/" target=" _blank" rel=""> View</a>  </p> 
                         
                         
                 </div>
                     <div className="flex-col card-light">
-                        <img className="image" src={blog} />
-                        <p className="products"> Blog <a href={"/http://irublog.herokuapp.com"} target=" _blank"> View</a>  </p>
+                        <img className="image" src={blog} alt={blog} />
+                        <p className="products"> Blog <a href={"/http://irublog.herokuapp.com"}  target="_blank" rel=" "> View</a>  </p>
                          
                          
                 </div>
                     <div className="flex-col card-light">
-                        <img className="image" src={bsc} />
+                        <img className="image" src={bsc} alt={bsc} />
                        
-                        <p className="products">  static Web App  <a href={"https://bcshoseservices.com/"} target=" _blank">  View</a>  </p>
+                        <p className="products">  static Web App  <a href={"https://bcshoseservices.com/"} target="_blank" rel=" ">  View</a>  </p>
                 </div>
                 </div>
             </div>
